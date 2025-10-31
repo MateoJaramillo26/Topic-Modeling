@@ -19,32 +19,32 @@ El notebook explora técnicas de procesamiento de lenguaje natural (NLP) para ex
 
 ## Instalación
 
-1. Clona el repositorio:
+1. Clonar el repositorio:
    ```
    git clone https://github.com/tu-usuario/topic-modeling-repo.git
    cd topic-modeling-repo
    ```
 
-2. Instala las dependencias:
+2. Instalar las dependencias:
    ```
    pip install -r requirements.txt
    ```
 
-3. Descarga el dataset `reviews.csv` (no incluido; asegúrate de tenerlo en el directorio raíz).
+3. Descargar el dataset `reviews.csv` (no incluido; asegurarse de tenerlo en el directorio raíz).
 
 ## Uso
 
-1. Abre el notebook:
+1. Abrir el notebook:
    ```
    jupyter notebook TopicModeling.ipynb
    ```
 
-2. Ejecuta las celdas secuencialmente para cargar datos, construir grafos, detectar comunidades, visualizar resultados y evaluar.
+2. Ejecutar las celdas secuencialmente para cargar datos, construir grafos, detectar comunidades, visualizar resultados y evaluar.
 
 ## Estructura del Notebook
 
 ### Paso 1: Importar Librerías y Cargar Datos
-- Carga el dataset de reseñas y verifica el total de entradas.
+- Cargar el dataset de reseñas y verifica el total de entradas.
 
 ### Paso 2: Preprocesamiento y Construcción de Grafos
 - Vectorización TF-IDF de las reseñas.
@@ -66,10 +66,4 @@ El notebook explora técnicas de procesamiento de lenguaje natural (NLP) para ex
 
 ## Resultados Esperados
 - Tópicos identificados como "practical, learning, environment" (ejemplo de usabilidad de apps).
-- Comparación muestra que una medida (e.g., coseno) suele superar en modularidad y coherencia.
-
-## Contribuciones
-Siéntete libre de forkear y contribuir. Abre issues para sugerencias o bugs.
-
-## Licencia
-MIT License. Ver [LICENSE](LICENSE) para detalles.
+- Comparación muestra que una medida (p.ej., coseno) suele superar en modularidad y coherencia.
